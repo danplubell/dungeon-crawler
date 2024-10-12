@@ -38,7 +38,7 @@ impl Map {
                 }
             }
         }
-        
+
 /*        for y in 0..SCREEN_HEIGHT {
             for x in 0..SCREEN_WIDTH {
                 let idx = map_idx(x,y);
@@ -52,7 +52,7 @@ impl Map {
                 }
             }
         }
-        
+
  */
     }
     pub fn in_bounds(&self, point:Point) -> bool {
